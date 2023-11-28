@@ -4,18 +4,76 @@
   <head>
     <meta charset="UTF-8">
     <title>Never Cry Software</title>
-    <link rel="stylesheet" type="text/css" href="./semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
+
+    <style>
+
+      body {
+        background-color: #000000;
+        margin: 32px;
+      }
+
+      * {
+        color: #ffffff;
+      }
+
+      #logo {
+
+        margin-bottom: 2.5%;
+      }
+
+      #games {
+
+        margin: 5%;
+        color: #b90000;
+        font-size: 300%
+      }
+
+    </style>
   </head>
 
-  <body style="background-color: #000000;">
+  <body>
     
-    <button class="ui inverted button">Test</button>
+    <div class="ui grid" id="logo">
+      <div class="sixteen wide column">
+        <img class="ui centered image medium" src="./img/logo.png">
+      </div>
+    </div>
+
+    <div class="ui horizontal divider inverted">
+      Games
+    </div>
+
+    <h1 id="games" class="ui huge header center aligned inverted">?????????</h1>
+
+    <div class="ui horizontal divider inverted">
+      Team
+    </div>
+    
+    <div class="team-card">
+    <div class="ui centered card inverted center aligned">
+      <div class="image">
+        <img class="small" src="./img/blaidd.jpg">
+      </div>
+      <div class="content">
+        <a class="header">blaidd / Hugo</a>
+        <div class="description">
+          Founder of Never Cry Software, currently working as ethical hacker, gamedev as hobby.<br><br>
+
+          - 3y web development experience;<br>
+          - 3y ethical hacking experience;<br><br>
+
+          Roles: Game Designer, Programmer, Pixel Artist and Music Composer;
+        </div>
+      </div>
+    </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
-    <script src="./semantic.min.js"></script>
+    <script src="./js/semantic.min.js"></script>
   </body>
 
   <!-- Created by blaiddx64 -->
